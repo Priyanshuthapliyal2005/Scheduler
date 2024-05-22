@@ -1,0 +1,100 @@
+/* Reset default styles */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Container styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px; /* Increased padding */
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 3rem; /* Increased font size */
+  color: #0070f3;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Input styles */
+.query-input {
+  width: 80%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 2px solid #0070f3;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.query-input:focus,
+.query-input:hover { /* Added hover effect */
+  border-color: #005bb5;
+}
+
+/* Button styles */
+.submit-button {
+  padding: 12px 24px;
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #005bb5;
+}
+
+/* Query results container */
+.query-results {
+  margin-top: 30px;
+}
+
+/* Query results heading */
+.query-results h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #0070f3;
+}
+
+/* Query results list */
+.query-results ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Query result item */
+.query-results li {
+  background-color: #fff;
+  margin: 20px 0; /* Increased margin */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.query-results li:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
