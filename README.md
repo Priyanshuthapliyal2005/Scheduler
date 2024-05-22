@@ -67,7 +67,7 @@ Follow these steps to set up the project on your local machine.
 
 scheduler
 
-![image](https://github.com/Priyanshuthapliyal2005/Scheduler/assets/114170980/5393f454-4797-443e-a7c6-d0a60458c4d1)
+![alt text](image.png)
 
 
 ### Scripts
